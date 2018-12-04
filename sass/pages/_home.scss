@@ -1,0 +1,49 @@
+.section-about {
+    background-color: $color-white;
+    padding: 6rem 5rem 12rem 5rem;
+
+    @media (max-width: 61.9375em) {
+        & {
+            padding: 6rem 15rem 12rem 15rem;
+        }
+    }
+
+    // 600px
+    @media (max-width: 37.5em) {
+        & {
+            padding: 6rem 4rem 12rem 4rem;
+        }
+    }
+
+    // 450px
+    @media (max-width: 28em) {
+        & {
+            padding: 6rem 0rem 12rem 0rem;
+        }
+    }
+}
+
+.section-products {
+    background-color: $color-grey-2;
+    padding: 6rem 0 10rem;
+}
+
+.section-contact {
+    min-height: 100vh;
+    background-image: url(../img/footer/notebook_open.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 5rem;
+
+    // 1200px
+    @media (max-width: 75em) {
+        & {
+            background-image: url(../img/footer/wood.jpg);
+        }
+    }
+}
+
+.section-map {
+    background-color: $color-grey-2;
+    padding: 6rem 0 10rem 0;
+}

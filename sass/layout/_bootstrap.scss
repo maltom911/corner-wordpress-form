@@ -1,0 +1,39 @@
+.row {
+    margin: 0;
+}
+
+.contact-row__padding {
+    padding: 0 14% 0 10%;
+
+    // 600px
+    @media (max-width: 37.5em) {
+        & {
+            padding: 0;
+        }
+    }
+}
+
+.logo-button-panel__padding {
+    padding: 0 20rem 0 20rem;
+     // 991px
+         @media (max-width: 61.93em) {
+            & {
+                padding:0;
+            }
+        }
+}
+
+.subpage-align-right {
+    text-align: right;
+}
+
+
+// 600px
+@media (max-width: 37.5em) {
+
+    .navbar-nav>li>a {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        line-height: 0px;
+    }
+}

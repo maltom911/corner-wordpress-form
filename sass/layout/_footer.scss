@@ -1,0 +1,40 @@
+.footer {
+    background-color: $color-grey-3;
+    padding: 2rem;
+    font-size: 1.6rem;
+    text-align: center;
+
+    &--bottom {
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }
+
+    & * {
+        margin-bottom: 0;
+    }
+
+    &__text-container {
+
+        // 767px
+        @media (max-width: 47.9em) {
+            margin-bottom: 1.5rem;
+        }
+    }
+
+    &__text {
+        display: inline-block;
+
+      
+
+    }
+
+    &__text:not(:last-child) {
+        margin-right: 1rem;
+    }
+
+    &__counter-container {
+    }
+
+    &__copyright {}
+}

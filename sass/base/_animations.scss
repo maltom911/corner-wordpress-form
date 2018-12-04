@@ -1,0 +1,40 @@
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-20rem);
+    }
+    80% {
+        transform: translateX(5rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(20rem);
+    }
+    80% {
+        transform: translateX(-1rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes arrowAnimation {
+    0% {
+        transform: rotate(-45deg) translate(0, 0);
+    }
+
+    20% {
+        transform: rotate(-45deg) translate(-1rem, 1rem);
+    }
+    40% {
+        transform: rotate(-45deg) translate(0, 0);
+    }
+}
